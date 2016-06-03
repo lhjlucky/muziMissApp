@@ -1,0 +1,239 @@
+<div class="modulesIndex">
+	<header id="headerIndex">
+		<ul>
+			<li>
+				<span class="active" action-type="switch.swiper">闺蜜</span>
+				<span action-type="switch.swiper">订阅</span>
+			</li>	
+			<li class="yo-ico">&#xe608;</li>
+		</ul>	
+	</header>	
+	<!--<nav>
+		<ul>
+			<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+			<li>Missx</li>
+		</ul>
+	</nav>-->
+	
+	
+	<!--id="index-scroll" spa-widget="scroll"-->
+	<section id="index-scroll" spa-widget="scroll">	
+	<div class="swiper-container" id="index-swiper">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<div>
+		    		
+		    <nav>		
+		    	<ul>
+					<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+					<li>Missx</li>
+				</ul>
+		    </nav>		
+			<ul>
+				<li><img src="/missApp/images/img01.jpg"></li>
+				<li>
+					<div class = "giftDiv">
+						<p>#我想要的礼物</p>
+					</div>
+					
+					<div class = "icontDiv">
+						<ul class="clearList">
+							<li>
+								<i class="yo-ico">&#xe65a;</i>
+								<span>5</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe6ac;</i>
+								<span>0</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe627;</i>
+								<span>188</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe60e;</i>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+			<nav>		
+		    	<ul>
+					<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+					<li>Missx</li>
+				</ul>
+		    </nav>	
+			
+			<ul>
+				<li><img src="/missApp/images/img02.jpg"></li>
+				<li>
+					<div class = "giftDiv">
+						<p>#我想要的礼物</p>
+					</div>
+					
+					<div class = "icontDiv">
+						<ul class="clearList">
+							<li>
+								<i class="yo-ico">&#xe65a;</i>
+								<span>5</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe6ac;</i>
+								<span>0</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe627;</i>
+								<span>188</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe60e;</i>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+			<nav>		
+		    	<ul>
+					<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+					<li>Missx</li>
+				</ul>
+		    </nav>	
+			
+			
+			<ul>
+				<li><img src="/missApp/images/img03.jpg"></li>
+				<li>
+					<div class = "giftDiv">
+						<p>#我想要的礼物</p>
+					</div>
+					
+					<div class = "icontDiv">
+						<ul class="clearList">
+							<li>
+								<i class="yo-ico">&#xe65a;</i>
+								<span>5</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe6ac;</i>
+								<span>0</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe627;</i>
+								<span>188</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe60e;</i>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+			<nav>		
+		    	<ul>
+					<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+					<li>Missx</li>
+				</ul>
+		    </nav>	
+			
+			<ul>
+				<li><img src="/missApp/images/img04.jpg"></li>
+				<li>
+					<div class = "giftDiv">
+						<p>#我想要的礼物</p>
+					</div>
+					
+					<div class = "icontDiv">
+						<ul class="clearList">
+							<li>
+								<i class="yo-ico">&#xe65a;</i>
+								<span>5</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe6ac;</i>
+								<span>0</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe627;</i>
+								<span>188</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe60e;</i>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+			<nav>		
+		    	<ul>
+					<li class="imgX"><img src="/missApp/images/29.jpg"></li>
+					<li>Missx</li>
+				</ul>
+		    </nav>	
+			
+			<ul>
+				<li><img src="/missApp/images/img01.jpg"></li>
+				<li>
+					<div class = "giftDiv">
+						<p>#我想要的礼物</p>
+					</div>
+					
+					<div class = "icontDiv">
+						<ul class="clearList">
+							<li>
+								<i class="yo-ico">&#xe65a;</i>
+								<span>5</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe6ac;</i>
+								<span>0</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe627;</i>
+								<span>188</span>
+							</li>
+							<li>
+								<i class="yo-ico">&#xe60e;</i>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			
+			
+			
+			
+			
+		</div>
+    </div>
+    	<div class="swiper-slide">订阅</div>
+	 </div>
+</div>	
+</section>
+	<footer>
+		<ul>
+			<li class="active">
+				<i class="yo-ico">&#xe602;</i>
+				<b>闺蜜</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe72c;</i>
+				<b>广场</b>
+			</li>
+			<li class="yo-ico">
+				<i>&#xe62d;</i>
+			</li>
+			<li class="yo-ico">
+				<i>&#xe610;</i>
+				<b>视频</b>
+			</li>
+			<li class="yo-ico">
+				<i>&#xe61a;</i>
+				<b>我的</b>
+			</li>
+		</ul>
+	</footer>
+</div>

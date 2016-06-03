@@ -1,0 +1,235 @@
+@import "../core/swiper-3.3.1.min.css";
+.modulesIndex{
+    width:100%;
+    height:100%;
+    @include flexbox();
+    @include flex-direction(column);
+    & > * {
+        width:100%;
+    }
+    header{
+        background-color:#faf6f7;
+        height:.44rem;
+        ul{
+            width:100%;
+            height:100%;
+            @include flexbox();
+            @include border(0 0 1px 0,#c5ced3);
+            li:first-child{
+                overflow: hidden;
+                @include flex();
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+//              line-height:.44rem;
+//              text-align:center;
+               
+                span{
+                    width:.50rem;
+                    height:.44rem;
+                    line-height:.44rem;
+                    text-align:center;
+                    @include box-sizing(border-box);
+                    &.active{
+                        color:#fb317d;
+                        //border-bottom:0.02rem solid #fb317d;
+                        @include border(0 0 0.04rem 0,#fb317d,solid);
+                      }
+                }
+               
+            }
+            li:last-child{
+                width:.44rem;
+                line-height:.44rem;
+                color:#b65278;
+                text-align:center;
+            }
+        }
+//      #index-swiper{
+////          z-index:99;
+//          width:100%;
+//          height:8.5rem;
+//          background:#fff;
+//      }
+    }
+//  nav{
+//      background-color:#fff;
+//      height:.35rem;
+////      z-index:9;
+//      
+//      ul{
+//          @include flexbox();
+//          width:100%;
+//          height:100%;
+//          li:first-child{
+//              width:.35rem;
+//              height:.35rem;
+//              border:1px solid #ccc;
+//              margin:0 .15rem 0 .15rem;
+////              border-radius:50%;
+//              @include border(1px,#ccc,solid,50%);
+//              overflow:hidden;
+//             img{
+//                 width:.35rem;
+//                 height:.35rem;
+//                 
+//             }
+//             };
+//             li:last-child{
+//                 width:.35rem;
+//                 height:.35rem;
+//                 text-align:center;
+//                 line-height:.35rem;
+//             }
+//           }
+//          }
+//      
+    
+    section{    
+        nav{
+        background-color:#fff;
+        height:.35rem;    
+        ul{
+            @include flexbox();
+            width:100%;
+            height:100%;
+            li:first-child{
+                width:.35rem;
+                height:.35rem;
+                border:1px solid #ccc;
+                margin:0 .15rem 0 .15rem;
+//              border-radius:50%;
+                @include border(1px,#ccc,solid,50%);
+                overflow:hidden;
+               img{
+                   width:.35rem;
+                   height:.35rem;
+                   
+               }
+               };
+               li:last-child{
+                   width:.35rem;
+                   height:.35rem;
+                   text-align:center;
+                   line-height:.35rem;
+               }
+             }
+        }
+        @include flex();
+        width:100%;
+        height:4.57rem;
+        overflow: hidden;
+       ul{
+           width:100%;
+           li:first-child{
+               width:100%;
+//             height:3.65rem;
+               img{
+                   width:100%;
+                   height:100%;
+               }
+           }
+           li:last-child{
+               width:100%;
+//             height:1.0rem;
+              @include border(0 0 1px 0,#d5dde0,solid);
+               @include box-sizing(border-box);
+               .giftDiv{
+                   @include flexbox();
+                   @include flex-direction(column);
+                   @include justify-content(center);
+                   width:100%;
+                   height:.5rem;
+                    @include border(0 0 1px 0,#000);
+                    padding-left:.2rem;
+                     p{
+                       width:0.94rem;
+                       height:.22rem;
+                       background:#f42654;
+                       line-height:.22rem;
+                       color:#fff;
+                       @include border(0 0 0 0,#ccc,solid,5%);
+                       
+                   }
+               }
+               .icontDiv{
+                   width:100%;
+                   height:.5rem;
+                   .clearList{
+                       @include flexbox();
+                       width:100%;
+                       li{
+                           @include flexbox();
+                           @include justify-content(center);
+                           width:25%;
+                           height:100%;
+                           text-align:center;
+                         background: url(/missApp/images/bg1.jpg) right center no-repeat;
+                         i,span{
+                             display:inline-block;
+                             width:25%;
+                             height:100%;
+                             line-height:.5rem;
+                             text-align:center;
+                         }
+                         
+                          
+                       }
+                   }
+               }
+               
+           }
+        
+       }
+    }   
+    footer{
+        width:100%;
+        height:.44rem;
+        z-index: 9999;
+        ul{
+            width:100%;
+            height:100%;
+            @include box-sizing(border-box);
+            @include border(1px 0 0 0,#ccc);
+            @include flexbox();
+            li{
+                @include flex();
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                @include flex-direction(column);
+                &.active{
+                   i{
+                      color:#f62372; 
+                   } 
+                   b{
+                       color:#f62372;
+                   }
+                }
+                b,i{
+                    display:block;
+                    color:#ced2db;
+                }
+                i{
+                    font-size:.23rem;
+                    line-height:.23rem;
+                }
+                b{
+                    font-size:.10rem;
+                    font-weight:normal;
+                }
+                &:nth-child(3) i {
+                    width:.44rem;
+                    height:.44rem;
+                    @include box-sizing(border-box);
+                    @include border(1px,#ccc,solid,50%);
+                    text-align:center;
+                    line-height:.44rem;
+                    font-size:.30rem;
+                   color:#fff;
+                   background-color:#f73f59;
+                }
+            }
+        }
+    }
+}
